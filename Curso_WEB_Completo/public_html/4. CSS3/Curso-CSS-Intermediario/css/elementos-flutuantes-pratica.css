@@ -1,0 +1,27 @@
+body {
+	background: #f4f4f4;
+}
+
+#content {
+	width: 900px;
+}
+
+.noticia {
+	background: #e5e5e5;
+	padding: 10px;
+	width: 260px;
+	margin: 10px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.imagem-galeria {
+	background: white;
+	padding: 10px;
+	width: 260px;
+	margin: 10px;
+	float: left;
+}

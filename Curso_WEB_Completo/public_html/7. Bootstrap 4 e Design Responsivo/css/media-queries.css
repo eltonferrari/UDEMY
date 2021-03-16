@@ -1,0 +1,121 @@
+body {
+	margin-bottom: 200px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 20px;
+	color: blue;
+}
+
+/*****************************************************
+Small devices (landscape phones)
+@media (min-width: 576px) {
+	body {
+		background: red;
+	}
+}
+
+Megreenm devices (tablets, 768px e superior)
+@media (min-width: 768px) {
+	body {
+		background: blue;
+	}
+}
+
+Large devices (desktops, 992px e superior)
+@media (min-width: 992px) {
+	body {
+		background: yellow;
+	}
+}
+
+Extra large devices (large desktops, 1200px e superior)
+@media (min-width: 1200px) {
+	body {
+		background: grey;
+	}
+}
+
+
+
+*****************************************************
+Extra small devices (portraint phones)
+@media (max-width: 575px) {
+	body {
+		background: #870000;
+	}
+}
+
+Small devices (Landscape Phones)
+@media (max-width: 767px) {
+	
+}
+
+Medium devices (Tablets)
+@media (max-width: 991px) {
+
+}
+
+Large devices (Desktops) 
+@media (max-width: 1199px) {
+
+}
+
+
+
+******************************************************/
+@media (max-width: 575.98px) {
+	body {
+		background: #870000;
+	}
+
+	p {
+		color: yellow;
+	}
+}
+
+/*Extra small devices (portrait phones, menor que 576px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	body {
+		background: red;
+	}
+
+	p {
+		color: yellow;
+	}
+}
+
+/*Small devices (landscape phones, 576px e maiores)*/
+@media (min-width: 768px) and (max-width: 990.98px) {
+	body {
+		background: blue;
+	}
+
+	p {
+		color: yellow;
+	}	
+}
+
+/*Medium devices (tablets, 768px e maiores)*/
+@media (min-width: 991px) and (max-width: 1199.98px) {
+	body {
+		background: yellow;
+	}
+
+	p {
+		color: red;
+	}	
+}
+
+/*Large devices (desktops, 992px e maiores)*/
+@media (min-width: 1200px) {
+	body {
+		background: grey;
+	}
+
+	p {
+		color: red;
+	}
+}

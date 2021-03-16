@@ -1,0 +1,36 @@
+.texto {
+	/* Tipos:
+		px -> Tamanho fixo
+		%  -> Tamanho relativo
+		em -> Tamanho relativo ao container pai
+	*/
+	font-size: 1.5em;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.negrito {
+	/* 	normal, bold
+		100 -> 900
+	*/
+	font-weight: bold;
+}
+
+.italico {
+	font-style: italic;
+}
+
+.formatacao1 {
+	text-decoration: underline;
+}
+
+.formatacao2 {
+	text-decoration: overline;
+}
+
+.formatacao3 {
+	text-decoration: line-through;
+}
+
+.formatacao4 {
+	font: bold 1em "Times New Roman", Times, serif;
+}

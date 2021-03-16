@@ -1,0 +1,100 @@
+#conteudo {
+	background: #dcdcdc;
+	height: 300px;
+	
+	/* MUITO IMPORTANTE ESTAR PRESENTE */
+	display: flex;
+	
+	/* 	FLEX-DIRECTION: 
+		row || row-reverse || column || column-recerse
+	*/
+	/*flex-direction: row;*/
+	
+	/*	FLEX-WRAP:
+		wrap || nowrap || wrap-reverse
+	*/
+	/*flex-wrap: wrap;*/
+
+	/*	JUSTIFY-CONTENT:
+	flex-start || flex-end || center || space-between ||
+	space-around
+	*/
+	/*justify-content: flex-start;*/
+
+	/*	ALIGN-ITENS 
+	stretch || center || flex-start || flex-end || baseline
+	*/
+	/*align-items: center*/
+}
+
+.item {
+	height: 100px;
+	background: white;
+	border: 1px solid gray;
+	margin: 10px;
+	
+	/* 	FLEX-GROW
+		Defime a proporção de espaço ocupado por 
+		um item
+	*/
+	flex-grow: 0;
+
+	/*	FLEX-SHRINK
+		Define a capacidade de redução de tamanho 
+		de um item
+	*/
+	flex-shrink: 1;
+
+	/*	FLEX-BASIS
+		Indica o tamanho inicial, do flex item,
+		antes da distribuição do espaço restante
+		default = auto
+	*/
+	flex-basis: 200px;
+}
+
+/* GROW
+.item1 {
+	flex-grow: 1;
+}
+
+.item2 {
+	flex-grow: 3;
+}
+*/
+
+/* SHIRINK
+.item1 {
+	flex-shrink: 1;
+}
+
+.item2 {
+	flex-shrink: 2;
+}
+
+.item3 {
+	flex-shrink: 5;
+}
+*/
+
+/* ORDER
+.ordem1 {
+	/*	ORDER 
+		Ordena as box conforme numeração dada. 
+		Pode ser negativo
+		Padrão é "0"
+	*/
+/*	
+	order: 1;
+}
+
+.ordem2 {
+	order: 2;
+}
+.ordem3 {
+	order: 3;
+}
+.ordem4 {
+	order: 4;
+}
+*/

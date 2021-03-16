@@ -1,0 +1,12 @@
+.borda {
+	border: 1px solid red;
+	padding: 10px;
+}
+
+.display-in {
+	display: inline;
+}
+
+.display-bl {
+	display: block;
+}

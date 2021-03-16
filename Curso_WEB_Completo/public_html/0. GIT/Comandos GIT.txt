@@ -1,0 +1,48 @@
+COMANDOS USADOS NO GIT
+
+Configurar nome: git config --global user.name "EltonFerrari"
+Buscar nome cadastrado: git config user.name
+
+Configurar e-mail: git config --global user.email "eltonferrari@gmail.com"
+Buscar e-mail cadastrado: git config user.email
+
+Configurar editor/IDE/etc: git config --global core.editor vscode
+Buscar todos os dados: git config --list
+
+Inicializar diretório/repositógit init rio: - Cria pasta (oculta) ".git" dentro da pasta de trabalho
+
+Ver estado dos arquivos na pasta: git status
+
+Adicionar um arquivo: git add <nome do arquivo com extenção>
+Adicionar tudo dentro da pasta: git add .
+
+Commitar: git commit -m "Descrição"
+
+Log do Git: git log
+Log do Git por autor: git log --author="elton"
+
+Log completo?: git shortlog
+Log rápido commits/autor: git shortlog -sn
+
+Mostra grafico de branch e versões: git log --graph
+
+Mostra tudo referente aquela rash solicitada: git show <RASH do evento>
+
+Ver mudanças antes do commit: git diff
+Ver qual arquivo foi modificado: git diff --name-only
+
+Restaurar arquivo antes de add: git checkout <nome do arquivo>
+Restaurar arquivo depois de add e antes de commit: git reset READ;
+depois pode-se usar: git checkout <nome do arquivo>
+
+Restaurar arquivo depois de commit: 
+git reset --soft <RASH do evento> (restaura e deixa no ponto para commit novamente);
+git reset --mixed <RASH do evento> (restaura e deixa no ponto antes de ADD);
+git reset --hard <RASH do evento>  (mata o commit);
+
+
+Conectar local com remoto:
+git remote add origin git@github.com:eltonferrari/<repositório>
+
+Mostra o repositório remoto: git remote
+Envia o código: git push -u origin<remoto> master<branch na máquina>

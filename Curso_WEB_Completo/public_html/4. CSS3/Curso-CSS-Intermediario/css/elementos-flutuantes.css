@@ -1,0 +1,43 @@
+#content {
+	border: 5px solid orange;
+	padding: 10px;
+	background: gray;
+}
+
+.conteudo {
+	background: blue;
+	border: 1px solid gray;
+	width: 150px;
+	height: 250px;
+	margin: 10px;
+	/* 
+	FLOAT pode ser LEFT, RIGHT ou NONE
+	*/
+	float: right;
+}
+
+.conteudo1 {
+	background: red;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	float: right;
+}
+
+.conteudo2 {
+	background: green;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	float: right;
+}
+
+.clear {
+	/* 
+	CLEAR limpa a formatação do float.
+	Pode ser LEFT, RIGHT, BOTH ou NONE
+	*/
+	clear: left;
+}

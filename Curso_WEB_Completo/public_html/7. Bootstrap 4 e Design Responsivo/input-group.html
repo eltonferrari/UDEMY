@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        
+        <!-- Required Bootstrap 4 -->
+        <meta name="viewport" 
+              content="width=device-width, 
+                       initial-scale=1, 
+                       shrink-to-fit=no">
+
+        <!-- COMPATIBILIDADE COM HTML5 -->
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+            
+        <!-- Bootstrap 4 - CSS -->
+        <link rel="stylesheet" 
+              href="css/Bootstrap4/css/bootstrap.min.css">
+
+        <!-- NORMALIZE CSS -->
+        <link   rel="stylesheet" 
+                type="text/css" 
+                href="css/normalize.css">
+
+        <!-- CSS CUSTOMIZADO -->
+        <link   rel="stylesheet" 
+                type="text/css" 
+                href="css/formularios.css">
+
+        <title>BOOTSTRAP - FORMULÁRIOS - input-group</title>
+    </head>
+    <body>
+        
+        <form>
+           
+            <h2>Grupo prepend</h2>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                </div>
+                <input class="form-control" type="text" placeholder="e-mail">
+            </div> 
+            <br>
+            <h2>Grupo append</h2>
+            <div class="input-group">
+                <input class="form-control" type="text" placeholder="e-mail">
+                <div class="input-group-append">
+                    <span class="input-group-text">@gmail.com</span>
+                </div>
+            </div> 
+            <br>
+            <h2>URL customizada</h2>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                       https://site.com/usuario/
+                    </span>
+                </div>
+                <input class="form-control" type="text" placeholder="Digite seu usuário">
+            </div>
+            <br>
+            <h2>Moeda</h2>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                </div>
+                <input class="form-control" type="text" placeholder="Digite um valor">
+                <div class="input-group-append">
+                    <span class="input-group-text">,00</span>
+                </div>
+            </div>
+            <br>
+            <!--
+                type: checkbox / radio
+            -->
+            <h2>Checkbox / radio</h2>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                       <input type="checkbox">
+                    </div> 
+                </div>
+                <input type="text" class="form-control">
+            </div>
+            <br>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                       <input type="radio">
+                    </div> 
+                </div>
+                <input type="text" class="form-control">
+            </div>
+            <br>
+
+            <h2>Múltiplos inputs</h2>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Nome/E-mail</span>
+                </div>
+                <input class="form-control" type="text" placeholder="e-mail">
+                <input class="form-control" type="password" placeholder="senha">
+            </div> 
+            <br>
+
+            <h2>Pesquisas</h2>
+            <div class="input-group">
+                <input class="form-control" type="text" placeholder="Pesquisar" >
+                <div class="input-group-append">
+                    <button class="btn btn-warning" type="button">Pesquisar</button>
+                </div>
+            </div>
+        </form>
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+                crossorigin="anonymous"></script>
+        <script src="css/Bootstrap4/js/bootstrap.min.js"></script>
+  
+
+       
+    </body>
+</html>

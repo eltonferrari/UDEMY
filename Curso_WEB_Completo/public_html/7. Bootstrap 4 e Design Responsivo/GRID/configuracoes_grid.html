@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        
+        <!-- Required Bootstrap 4 -->
+        <meta name="viewport" 
+              content="width=device-width, 
+                       initial-scale=1, 
+                       shrink-to-fit=no">
+
+        <!-- COMPATIBILIDADE COM HTML5 -->
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+            
+        <!-- Bootstrap 4 - CSS -->
+        <link rel="stylesheet" 
+              href="css/Bootstrap4/css/bootstrap.min.css">
+
+        <!-- Iconic CSS -->
+        <link href="iconic/font/css/open-iconic-bootstrap.css" 
+              rel="stylesheet">
+
+        <!-- Fontawesome CSS -->
+        <link href="fontawesome/css/all.css" 
+              rel="stylesheet">
+
+        <!-- NORMALIZE CSS -->
+        <link   rel="stylesheet" 
+                type="text/css" 
+                href="css/normalize.css">
+
+        <!-- CSS CUSTOMIZADO -->
+        <link   rel="stylesheet" 
+                type="text/css" 
+                href="css/style.css">
+
+        <title>BOOTSTRAP - GRID</title>
+    </head>
+    <body>
+        <h3 class="border-bottom">SISTEMA DE GRID</h3>
+        <a href="index.html">Voltar</a> 
+        <h4 class="border-bottom">CONFIGURAÇÕES DO GRID</h4>
+        <div class="container marcador-container">
+            <h2>Largura fixa</h2>
+            <div class="row">
+                <div class="marcador col">Área 1</div>
+                <div class="marcador col">Área 2</div>
+                <div class="marcador col">Área 3</div>
+                <div class="marcador col">Área 4</div>
+            </div>
+            <h2>Largura automática (auto-layout)</h2>
+            <div class="row">
+                <div class="marcador col">Área 1</div>
+                <div class="marcador col-4">Área 2</div>
+                <div class="marcador col-6">Área 3</div>
+            </div>
+            <h2>Largura igual empilhada</h2>
+            <div class="row">
+                <div class="marcador col-md">Área 1</div>
+                <div class="marcador col-md">Área 2</div>
+                <div class="marcador col-md">Área 3</div>
+            </div>
+            <h2>Ordenado</h2>
+            <div class="row">
+                <div class="marcador col-sm order-2">Área 1</div>
+                <div class="marcador col-sm order-1">Área 2</div>
+                <div class="marcador col-sm order-3">Área 3</div>
+            </div>
+            <h2>offset</h2>
+            <div class="row">
+                <div class="marcador col-sm-2 offset-sm-5">Login</div>
+            </div>
+            <h2>offset múltiplos alinhamentos</h2>
+            <div class="row">
+                <div class="marcador col-sm-3 offset-sm-3">Conteúdo 1</div>
+                <div class="marcador col-sm-3 offset-sm-3">Conteúdo 2</div>
+            </div>
+            <div class="row">
+                <div class="marcador col-sm-3">Conteúdo 1</div>
+                <div class="marcador col-sm-3 offset-sm-6">Conteúdo 2</div>
+            </div>
+            <h2>Aninhamento</h2>
+            <div class="row">
+                <div class="col-md-6 borda-solida-azul">
+                    col-md-6
+                    <div class="row">
+                        <div class="marcador col-sm-9 borda-solida-vermelha">Conteúdo 1</div>
+                        <div class="marcador col-sm-3 borda-solida-vermelha">Conteúdo 2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+                crossorigin="anonymous"></script>
+        <script src="css/Bootstrap4/js/bootstrap.min.js"></script>       
+    </body>
+</html>

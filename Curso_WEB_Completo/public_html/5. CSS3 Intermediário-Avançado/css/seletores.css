@@ -1,0 +1,93 @@
+/*
+
+SELETOR UNIVERSAL
+Seleciona todas as TAGS
+REPRESENTAÇÃO = " * "
+Exemplo:
+*********************************
+* {
+	border: 1px solid red;
+}
+*********************************
+
+SELETOR DE TEXTO
+Seleciona elementos pelo tipo de 
+" TAG "
+Exemplo: 
+*********************************
+h1, h2, body, div, span {}
+*********************************
+
+SELETOR DE CLASSE
+Seleciona um elemento cujo 
+atributo class tem o valor 
+especificado depois do ponto
+Exemplo:
+*********************************
+.verde { color: green; } -> Deixa 
+a cor verde em qualquer que use 
+esta classe
+
+p.verde { color: green; } -> 
+Deixa a cor verde apenas nas TAGS
+"<p>" que use esta classe
+*********************************
+
+SELETOR DE ID
+Seleciona um elemento cujo 
+atributo id tem o valor 
+especificado após o símbolo de 
+cerquilha ou jogo da velha
+Exemplo:
+*********************************
+#verde { color: green; }
+*********************************
+
+SELETOR DE FILHO
+Seleciona somente um elemento que 
+é filho direto de outro 
+Exemplo:
+*********************************
+li > a {} -> "<a>" está 
+diretamente dentro de "<li>"
+*********************************
+
+SELETOR DE DESCENDENTE
+Seleciona um elemento que é 
+descendente de outro elemento 
+especificado (e não apenas filho 
+direto desse elemento) 
+Exemplo:
+*********************************
+p a {} -> Seleciona quaisquer 
+elementos "<a>"" que residem 
+dentro de um elemento "<p>", 
+mesmo se houver outros elementos 
+aninhados entre eles
+*********************************
+
+SELETOR DE IRMÃO ADJACENTE
+Seleciona um elemento que é o 
+irmão próximo de outro
+Exemplo: 
+*********************************
+h1+p {} -> Seleciona somente o 
+primeiro elemento <p> depois de 
+qualquer elemento <h1> (mas não 
+outros elementos <p>)
+*********************************
+
+SELETOR DE IRMÃO GERAL
+Seleciona um elemento que é um 
+irmão de outro, embora ele não 
+precise ser o elemento 
+diretamente precedente
+Exemplo: 
+*********************************
+h1~p {} -> Se houvesse dois 
+elementos <p> que fossem irmãos 
+de um elemento <h1>, essa regra 
+se aplicaria ao dois 
+*********************************
+
+*/

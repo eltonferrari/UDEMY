@@ -1,0 +1,35 @@
+#caixa {
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	padding: 50px;
+	
+	/* 
+			BORDAS ARREDONDADAS
+			"border-radius"
+			Arredonda os cantos
+	*/
+	border-radius: 10px 50px 90px 130px;
+	-moz-border-radius: 10px 50px 90px 130px;
+	-webkit-border-radius: 10px 50px 90px 130px;
+	
+	/* 
+			BOX-SIZING
+			Não aumenta conforme 
+			se acrescenta "padding"
+	*/
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+#caixa2 {
+	width: 400px;
+	height: 300px;
+	background: #b9c941;
+}
+
+img {
+	width: 200px;
+	border-radius: 150px;
+}

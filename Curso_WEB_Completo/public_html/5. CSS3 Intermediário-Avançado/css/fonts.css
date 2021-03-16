@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "Ancient";
+	src: url("../fonts/Ancient-Medium.woff");
+}
+
+@font-face {
+	font-family: "Bring";
+	src: url("../fonts/BringHeart.woff");
+}
+
+@font-face {
+	font-family: "Madelina";
+	src: url("../fonts/MadelinaScript.woff");
+}
+
+h1 {
+	font-size: 5em;
+	font-family: "Ancient";
+}
+
+h2 {
+	font-size: 5em;
+	font-family: "Bring";
+}
+
+h3 {
+	font-size: 5em;
+	font-family: "Madelina";
+}
+

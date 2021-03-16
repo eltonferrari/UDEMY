@@ -1,0 +1,27 @@
+.conteudo {
+	border: 1px solid red;
+	/*   PADDING
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	TUDO ISSO É IGUAL A:
+	padding: 20px 30px 10px 40px;
+	SENTIDO HORÁRIO COMEÇANDO COM 
+	TOP->RIGHT->BOTTOM->LEFT
+	*/
+	padding: 20px 10px;
+	/* NESTE CASO:
+	20px É TOP E BOTTOM
+	10px É RIGHT E LEFT
+	*/
+
+	/*
+	------------------------------
+	MARGIN SEGUE A MESMA IDÉIA DE PADDING
+	SÓ QUE DO LADO DE FORA DA DIV
+	*/
+
+
+	width: 200px;
+}

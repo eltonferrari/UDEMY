@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Nome da página</title>
+
+	</head>
+	<body>
+
+		<h1>PARÁGRAFOS</h1>
+
+		<h2>Sobre a empresa</h2>
+		<hr>
+		Essa é a empresa ...
+		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at lacus tempor, ultrices magna vitae, ornare arcu. Ut interdum ex sed erat fermentum eleifend. In hac habitasse platea dictumst. Nunc semper felis vitae mauris cursus, et aliquet odio feugiat. Vivamus finibus aliquet libero, at pulvinar erat iaculis at. Proin volutpat ligula nulla, ut malesuada risus tincidunt a. Fusce condimentum lectus sed nulla commodo facilisis. Duis non elit ac metus sodales tincidunt. Fusce eu fringilla odio.</p>
+
+		<hr>
+		<h1>FORMATAÇÃO DE TEXTOS</h1>
+		<hr>
+		Esse é um texto em <strong>negrito</strong><br>
+		Esse é um texto em <em>itálico</em><br>
+		Esse é um texto em <u>underline</u><br>
+		Esse é um texto <strike>errado</strike><br>
+
+		<hr>
+		<h1>LISTAS</h1>
+		<hr>
+
+		<h2>Não Ordenadas</h2>
+		<!-- Lista disc = default -->
+		<ul>
+			<li>Notebook</li>
+			<li>Roteador</li>
+			<li>Mouse</li>
+			<li>Teclado</li>
+		</ul>
+		<!-- Lista circle -->
+		<ul type="circle">
+			<li>Notebook</li>
+			<li>Roteador</li>
+			<li>Mouse</li>
+			<li>Teclado</li>
+		</ul>
+
+		<!-- Lista square -->
+		<ul type="square">
+			<li>Notebook</li>
+			<li>Roteador</li>
+			<li>Mouse</li>
+			<li>Teclado</li>
+		</ul>
+
+		<h2>Ordenadas</h2>
+		<!-- Lista ordenada numerada = default -->
+		<ol>
+			<li>Notebook</li>
+			<li>Roteador</li>
+			<li>Mouse</li>
+			<li>Teclado</li>
+		</ol>
+		<!-- Lista ordenada com letras maiúsculas-->
+		<ol type="A">
+			<li>Notebook</li>
+			<li>Roteador</li>
+			<li>Mouse</li>
+			<li>Teclado</li>
+		</ol>
+		<!-- Lista ordenada com letras minúsculas-->
+		<ol type="a">
+			<li>Notebook</li>
+			<li>Roteador</li>
+			<li>Mouse</li>
+			<li>Teclado</li>
+		</ol>
+		<!-- Lista ordenada com números romanos maiúsculos-->
+		<ol type="I">
+			<li>Notebook</li>
+			<li>Roteador</li>
+			<li>Mouse</li>
+			<li>Teclado</li>
+		</ol>
+		<!-- Lista ordenada com números romanos minúsculos-->
+		<ol type="i">
+			<li>Notebook</li>
+			<li>Roteador</li>
+			<li>Mouse</li>
+			<li>Teclado</li>
+		</ol>
+		<hr>
+		<h1>IMAGENS</h1>
+		<hr>
+		<img src="imagens/ferrari.jpg" width="200">
+		<img src="https://images.noticiasautomotivas.com.br/img/f/190398-car-ferrari-roma.jpg" width="200">
+		<hr>
+		<h1>LINKS</h1>
+		<hr>
+		<a href="contato.html">Contato</a><br>
+		<a href="desafio1.html">Primeiro desafio do curso</a><br>
+		<a href="http://www.google.com">Google</a>
+		<hr>
+		<h1>TABELAS</h1>
+		<hr>
+		<table border="2">
+			<tr>
+				<th>Código</th>
+				<th>Produto</th>
+				<th>Preço</th>
+			</tr>
+			<tr>
+				<td>001</td>
+				<td>Notebook</td>
+				<td>R$ 2.986,00</td>
+			</tr>
+			<tr>
+				<td>002</td>
+				<td>Tablet</td>
+				<td>R$ 999,00</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Desconto</td>
+				<td colspan="2">Cupom1 - R$ 10,00</td>
+			</tr>
+			<tr>
+				<td colspan="2">Cupom2 - R$ 12,00</td>
+			</tr>
+			<tr>
+				<td>TOTAL</td>
+				<td colspan="2">R$ 3.985,00</td>
+			</tr>
+		</table>
+		<hr>
+		<h1>FORMULÁRIOS</h1>
+		<hr>
+		<h2>Login</h2>
+		<form>
+			Login:
+			<br>
+			<input type="text" name="login">
+			<br>
+			Senha:
+			<br>
+			<input type="password" name="senha">
+			<br>
+			<input type="submit" value="Logar">
+		</form>
+		<h2>Cadastre-se</h2>
+		<form>
+			Login:
+			<br>
+			<input type="text" name="login">
+			<br>
+			<input type="radio" name="sexo" value="M">Masculino
+			<br>	
+			<input type="radio" name="sexo" value="F">Feminino
+			<br>
+			<input type="radio" name="sexo" value="O">Outro
+			<br>
+			Interesses
+			<br>
+			<input type="checkbox" name="interesses">Futebol
+			<br>
+			<input type="checkbox" name="interesses">Cursos
+			<br>
+			<input type="checkbox" name="interesses">Moda
+			<br>
+			Estado
+			<br>
+			<select name="estado">
+				<option value="sp">SP</option>
+				<option value="rj">RJ</option>
+				<option value="mg">MG</option>
+				<option value="rn">RN</option>
+				<option value="rs">RS</option>
+			</select>
+			<br>
+			Observações:
+			<br>
+			<textarea></textarea>
+			<br>
+			<input type="submit" name="Cadastrar">
+		</form>
+		<hr>
+		<h1>CARACTERES ESPECIAIS</h1>
+		<hr>
+		Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quem Somos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contato
+	</body>
+</html>

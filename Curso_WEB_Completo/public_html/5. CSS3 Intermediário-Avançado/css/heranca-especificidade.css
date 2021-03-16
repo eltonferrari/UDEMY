@@ -1,0 +1,79 @@
+/*
+HERANÇA
+Os atributos são herdados de fora para dentro
+*/
+
+body {
+	/* é herdado */
+	color: red;
+
+	/* não é herdado */
+	border: 1px solid blue;
+	background: grey;
+}
+
+/*
+ESPECIFICIDADE
+Quando se tem 2 seletores iguais
+O último é o que prevalece
+*/
+
+p {
+	color: red;
+}
+
+p {
+	color: blue;
+}
+
+/* 
+EXCEÇÃO:
+Quando se usa " !important ".
+Neste caso quem estiver como 
+" !important " prevalecerá
+*/
+
+p {
+	color: red !important;
+}
+
+p {
+	color: blue;
+}
+
+/* 
+Se um seletor for mais específico 
+que outro, a regra mais específica 
+será aplicada (terá mais precedência 
+sobre regras mais gerais)
+Exemplo
+**************************************
+* {
+	color: red; 
+	(Neste caso " * " é geral)
+}
+
+h1 {
+	color: blue; 
+	(Neste caso " h1 " é específico)
+}
+
+h1.verde {
+	color: green;
+	(Neste caso " h1.verde " se torna 
+	mais específico que " h1 ")
+}
+
+h1#amarelo {
+	color: yellow;
+	(Neste caso " h1#amarelo " se torna 
+	mais específico que " h1.verde ")
+}
+
+PORTANTO A ORDEM É:
+
+menos específ.--> mais específ.
+"* --> h1 --> h1.class --> h1#id"
+
+*/
+
